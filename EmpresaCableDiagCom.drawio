@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-03T09:50:12.725Z" agent="5.0 (Windows)" etag="5ncaGfHYoLWubT14SzIA" version="17.0.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-03T10:27:13.679Z" agent="5.0 (Windows)" etag="CYGbozEdOlfXh7Zts9XQ" version="17.0.0" type="github" pages="2">
   <diagram id="tVbQm86MXpDArx8x3mV3" name="DiagCom">
     <mxGraphModel dx="1422" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -44,7 +44,7 @@
           <mxGeometry x="700" y="230" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="AisRIFuu1fv7a_WiVVZh-8" value="&lt;div&gt;8. * estaVigente()&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="1" edge="1">
-          <mxGeometry x="0.0811" y="33" width="80" relative="1" as="geometry">
+          <mxGeometry x="-0.0054" y="25" width="80" relative="1" as="geometry">
             <mxPoint x="800" y="210" as="sourcePoint" />
             <mxPoint x="910" y="130" as="targetPoint" />
             <mxPoint as="offset" />
@@ -94,7 +94,7 @@
         <mxCell id="sOXEI3E_A1EtLkcOLNvH-7" value="&lt;font style=&quot;font-size: 10px&quot;&gt;:&lt;b&gt;&lt;u&gt;Programacion&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="940" y="80" width="70" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="sOXEI3E_A1EtLkcOLNvH-9" value="&lt;div&gt;6. tomarTexto()&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="1" edge="1">
+        <mxCell id="sOXEI3E_A1EtLkcOLNvH-9" value="3. consultarProgramaPorNombre()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="480" y="250" as="sourcePoint" />
             <mxPoint x="680" y="250" as="targetPoint" />
@@ -199,7 +199,7 @@
         <mxCell id="GSx4z-SRz5qHfGtt0uug-26" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" parent="1" source="GSx4z-SRz5qHfGtt0uug-20" target="GSx4z-SRz5qHfGtt0uug-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GSx4z-SRz5qHfGtt0uug-27" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;fontSize=10;" parent="1" source="GSx4z-SRz5qHfGtt0uug-20" target="GSx4z-SRz5qHfGtt0uug-23" edge="1">
+        <mxCell id="GSx4z-SRz5qHfGtt0uug-27" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;exitX=0.971;exitY=0.771;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="GSx4z-SRz5qHfGtt0uug-24" target="GSx4z-SRz5qHfGtt0uug-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GSx4z-SRz5qHfGtt0uug-29" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" parent="1" source="GSx4z-SRz5qHfGtt0uug-20" target="GSx4z-SRz5qHfGtt0uug-22" edge="1">
@@ -209,7 +209,7 @@
           <mxGeometry x="820" y="630" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="GSx4z-SRz5qHfGtt0uug-21" value="&lt;font style=&quot;font-size: 10px&quot;&gt;:&lt;u&gt;&lt;b&gt;Categoria&lt;/b&gt;&lt;/u&gt;&lt;/font&gt;" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="980" y="620" width="70" height="70" as="geometry" />
+          <mxGeometry x="1020" y="630" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="GSx4z-SRz5qHfGtt0uug-22" value="&lt;font style=&quot;font-size: 10px&quot;&gt;:&lt;u&gt;&lt;b&gt;Calificacion&lt;/b&gt;&lt;/u&gt;&lt;/font&gt;" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="980" y="750" width="70" height="70" as="geometry" />
@@ -281,6 +281,240 @@
             <mxPoint x="1210" y="480" as="sourcePoint" />
             <mxPoint x="1141" y="520" as="targetPoint" />
             <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFlHvw_AC2o8eilIW3dE-10" value="&lt;div&gt;22. obtenerCanal()&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="815" y="235" as="sourcePoint" />
+            <mxPoint x="895" y="235" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFlHvw_AC2o8eilIW3dE-11" value="&lt;div&gt;23 * obtenerCanal()&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0667" width="80" relative="1" as="geometry">
+            <mxPoint x="1020" y="230" as="sourcePoint" />
+            <mxPoint x="1130" y="230" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFlHvw_AC2o8eilIW3dE-13" value="&lt;div&gt;24 * obtenerLogo()&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.1111" y="-50" width="80" relative="1" as="geometry">
+            <mxPoint x="1200" y="220" as="sourcePoint" />
+            <mxPoint x="1200" y="130" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFlHvw_AC2o8eilIW3dE-14" value="&lt;div&gt;25 obtenerNombre()&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.1111" y="-50" width="80" relative="1" as="geometry">
+            <mxPoint x="1210" y="230" as="sourcePoint" />
+            <mxPoint x="1210" y="140" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFlHvw_AC2o8eilIW3dE-15" value="&lt;div&gt;26 obtenerNumero()&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.1111" y="-50" width="80" relative="1" as="geometry">
+            <mxPoint x="1220" y="240" as="sourcePoint" />
+            <mxPoint x="1220" y="150" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFlHvw_AC2o8eilIW3dE-17" value="&lt;div&gt;27. presentarPrograma()&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="680" y="320" as="sourcePoint" />
+            <mxPoint x="480" y="320" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFlHvw_AC2o8eilIW3dE-19" value="&lt;div&gt;28. seleccionarPrograma()&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="110" y="200" as="sourcePoint" />
+            <mxPoint x="310" y="200" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFlHvw_AC2o8eilIW3dE-20" value="&lt;div&gt;6. tomarTexto()&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="480" y="235" as="sourcePoint" />
+            <mxPoint x="680" y="235" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFlHvw_AC2o8eilIW3dE-21" value="&lt;div&gt;29. tomarSeleccion()&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="480" y="220" as="sourcePoint" />
+            <mxPoint x="680" y="220" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFlHvw_AC2o8eilIW3dE-22" value="30. validarTipoPrograma()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="770" y="140" as="sourcePoint" />
+            <mxPoint x="680" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFlHvw_AC2o8eilIW3dE-23" value="&lt;div&gt;36. obtenerTipPelicula()&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.1429" y="-50" width="80" relative="1" as="geometry">
+            <mxPoint x="940" y="310" as="sourcePoint" />
+            <mxPoint x="940" y="380" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFlHvw_AC2o8eilIW3dE-24" value="&lt;div&gt;32. validarProg()&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.6439" y="-21" width="80" relative="1" as="geometry">
+            <mxPoint x="919" y="450" as="sourcePoint" />
+            <mxPoint x="890" y="480" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFlHvw_AC2o8eilIW3dE-26" value="&lt;div&gt;33. getTipoProg()&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.1429" y="-50" width="80" relative="1" as="geometry">
+            <mxPoint x="840" y="570" as="sourcePoint" />
+            <mxPoint x="840" y="620" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFlHvw_AC2o8eilIW3dE-27" value="34. obtenerTipPelicula()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="770" y="114.5" as="sourcePoint" />
+            <mxPoint x="680" y="114.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFlHvw_AC2o8eilIW3dE-28" value="35. obtenerTipPelicula()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="827" y="220" as="sourcePoint" />
+            <mxPoint x="927" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFlHvw_AC2o8eilIW3dE-29" value="&lt;div&gt;31. validarProg()&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.1429" y="-50" width="80" relative="1" as="geometry">
+            <mxPoint x="930" y="320" as="sourcePoint" />
+            <mxPoint x="930" y="390" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFlHvw_AC2o8eilIW3dE-31" value="&lt;div&gt;37. obtenerTipPelicula()&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.6439" y="-21" width="80" relative="1" as="geometry">
+            <mxPoint x="899.5" y="460" as="sourcePoint" />
+            <mxPoint x="870.5" y="490" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFlHvw_AC2o8eilIW3dE-32" value="&lt;div&gt;38. obtenerTipPelicula()&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.1429" y="-50" width="80" relative="1" as="geometry">
+            <mxPoint x="830" y="585" as="sourcePoint" />
+            <mxPoint x="830" y="635" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFlHvw_AC2o8eilIW3dE-33" value="39. getNombre()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.12" y="6" width="80" relative="1" as="geometry">
+            <mxPoint x="890" y="630" as="sourcePoint" />
+            <mxPoint x="1010" y="650" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFlHvw_AC2o8eilIW3dE-34" value="40. getDescripcion()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.7049" y="29" width="80" relative="1" as="geometry">
+            <mxPoint x="910" y="700" as="sourcePoint" />
+            <mxPoint x="970" y="750" as="targetPoint" />
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFlHvw_AC2o8eilIW3dE-35" value="42. getNombreRol()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.1538" y="-28" width="80" relative="1" as="geometry">
+            <mxPoint x="810" y="680" as="sourcePoint" />
+            <mxPoint x="750" y="720" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFlHvw_AC2o8eilIW3dE-36" value="43. getNombre()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.3" y="18" width="80" relative="1" as="geometry">
+            <mxPoint x="760" y="760" as="sourcePoint" />
+            <mxPoint x="840" y="800" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFlHvw_AC2o8eilIW3dE-37" value="40. getDescripcion()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.12" y="6" width="80" relative="1" as="geometry">
+            <mxPoint x="895" y="620" as="sourcePoint" />
+            <mxPoint x="1015" y="640" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFlHvw_AC2o8eilIW3dE-38" value="41. getElenco()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.12" y="6" width="80" relative="1" as="geometry">
+            <mxPoint x="900" y="610" as="sourcePoint" />
+            <mxPoint x="1020" y="630" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFlHvw_AC2o8eilIW3dE-39" value="&lt;div&gt;51. seleccionarFechaHora()&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="110" y="180" as="sourcePoint" />
+            <mxPoint x="310" y="180" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFlHvw_AC2o8eilIW3dE-40" value="&lt;div&gt;52. tomarSeleccion()&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="480" y="200" as="sourcePoint" />
+            <mxPoint x="680" y="200" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFlHvw_AC2o8eilIW3dE-41" value="53. fin CU" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="770" y="90" as="sourcePoint" />
+            <mxPoint x="680" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFlHvw_AC2o8eilIW3dE-42" value="&lt;div&gt;49. mostraDatosPeliculas()&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="680" y="340" as="sourcePoint" />
+            <mxPoint x="480" y="340" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFlHvw_AC2o8eilIW3dE-43" value="44. getAñoEstreno()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.12" y="6" width="80" relative="1" as="geometry">
+            <mxPoint x="400" y="610" as="sourcePoint" />
+            <mxPoint x="520" y="630" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFlHvw_AC2o8eilIW3dE-44" value="45. getCategoria()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.12" y="6" width="80" relative="1" as="geometry">
+            <mxPoint x="410" y="575" as="sourcePoint" />
+            <mxPoint x="530" y="595" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFlHvw_AC2o8eilIW3dE-47" value="46. getNombre()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.12" y="6" width="80" relative="1" as="geometry">
+            <mxPoint x="414" y="540" as="sourcePoint" />
+            <mxPoint x="534" y="560" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFlHvw_AC2o8eilIW3dE-48" value="47. getCalificacion()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.12" y="6" width="80" relative="1" as="geometry">
+            <mxPoint x="420" y="505" as="sourcePoint" />
+            <mxPoint x="540" y="525" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFlHvw_AC2o8eilIW3dE-49" value="48. getNombre()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.12" y="6" width="80" relative="1" as="geometry">
+            <mxPoint x="440" y="470" as="sourcePoint" />
+            <mxPoint x="560" y="490" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFlHvw_AC2o8eilIW3dE-50" value="&lt;div&gt;50. solicitarFechaHoraEmision()&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="680" y="360" as="sourcePoint" />
+            <mxPoint x="480" y="360" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
