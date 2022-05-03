@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-03T09:48:33.644Z" agent="5.0 (Windows)" etag="E4bxDNTGhmO9SK3oX81_" version="17.0.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-03T09:50:12.725Z" agent="5.0 (Windows)" etag="5ncaGfHYoLWubT14SzIA" version="17.0.0" type="github" pages="2">
   <diagram id="tVbQm86MXpDArx8x3mV3" name="DiagCom">
     <mxGraphModel dx="1422" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -274,6 +274,13 @@
             <mxPoint x="1310" y="290" as="sourcePoint" />
             <mxPoint x="1220" y="320" as="targetPoint" />
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFlHvw_AC2o8eilIW3dE-9" value="&lt;div&gt;21. getNombre()&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.1379" y="-19" width="80" relative="1" as="geometry">
+            <mxPoint x="1210" y="480" as="sourcePoint" />
+            <mxPoint x="1141" y="520" as="targetPoint" />
+            <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
